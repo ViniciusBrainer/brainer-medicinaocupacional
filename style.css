@@ -156,11 +156,11 @@ a:hover, a:active {
 .site-navigation ul li a {
     display: block;
     padding: 16px 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1;
     color: #404040;
-    text-decoration: none;
+    text-decoration: sublime;
     transition: color .35s;
 }
 
@@ -206,7 +206,7 @@ a:hover, a:active {
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
-    color: #18a3eb;
+    color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -625,13 +625,13 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------*/
 .subscribe-banner {
     padding: 80px 0;
-    background: url("images/blog-01.jpg") no-repeat center;
+    background: url("images/blog-banner.jpg") no-repeat center;
     background-size: cover;
     text-align: center;
 }
 
 .subscribe-banner h2 {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 600;
     color: #fff;
 }
