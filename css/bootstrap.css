@@ -602,6 +602,18 @@ pre code {
   margin-left: -15px;
 }
 
+.row2 {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row2:before, .row2:after {
+  content: " ";
+  display: table;
+}
+.row2:after {
+  clear: both;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -4149,6 +4161,49 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.container2 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container2:before, .container2:after {
+  content: " ";
+  display: table;
+}
+.container2:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .container2 {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container2 {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container2 {
+    width: 1170px;
+  }
+}
+
+.container2-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container2-fluid:before, .container2-fluid:after {
+  content: " ";
+  display: table;
+}
+.container2-fluid:after {
+  clear: both;
 }
 
 @media (min-width: 1200px) {
